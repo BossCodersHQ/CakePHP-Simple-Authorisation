@@ -110,6 +110,7 @@ if (!empty($failed)) {
 }
 
 App::uses('Dispatcher', 'Routing');
+// pr(App::path("controllers"));	used to output controller path, uncomment if needed
 
 $Dispatcher = new Dispatcher();
 $Dispatcher->dispatch(
